@@ -61,8 +61,3 @@ class Duel
         return defender.hp
     end
 end
-
-w = Warrior.new('war')
-m = Mage.new('mag')
-t = Tank.new('tnk')
-puts Duel.start(m, w)
